@@ -1,6 +1,8 @@
 """Constants for the Purple Air integration."""
 from homeassistant.const import  SIGNAL_STRENGTH_DECIBELS_MILLIWATT,PERCENTAGE
 
+from homeassistant.components.sensor import SensorDeviceClass
+
 AQI_BREAKPOINTS = {
     'pm2_5': [
         { 'pm_low': 500.5, 'pm_high': 999.9, 'aqi_low': 501, 'aqi_high': 999 },
