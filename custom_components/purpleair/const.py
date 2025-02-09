@@ -26,9 +26,9 @@ SENSORS_MAP = {
     'air_quality_index_epa':   {'key': 'aqi_epa',          'uom': DEVICE_CLASS_AQI, 'icon': 'mdi:weather-hazy'},
     'air_quality_index_lrapa': {'key': 'aqi_lrapa',        'uom': DEVICE_CLASS_AQI, 'icon': 'mdi:weather-hazy'},
     'humidity':                {'key': 'current_humidity', 'uom': PERCENTAGE,       'icon': 'mdi:water-percent'},
-    'temperature':             {'key': 'current_temp',     'uom': TEMP_FAHRENHEIT,  'icon': 'mdi:thermometer'},
-    'dewpoint':                {'key': 'current_dewpoint', 'uom': TEMP_FAHRENHEIT,  'icon': 'mdi:water-outline'},
-    'pressure':                {'key': 'pressure',         'uom': PRESSURE_HPA,     'icon': 'mdi:gauge'},
+    'temperature':             {'key': 'current_temp',     'uom': UnitOfTemperature.FAHRENHEIT,  'icon': 'mdi:thermometer'},
+    'dewpoint':                {'key': 'current_dewpoint', 'uom': UnitOfTemperature.FAHRENHEIT,  'icon': 'mdi:water-outline'},
+    'pressure':                {'key': 'pressure',         'uom': UnitOfPressure.HPA,     'icon': 'mdi:gauge'},
     'rssi':                    {'key': 'rssi',             'uom': SIGNAL_STRENGTH_DECIBELS_MILLIWATT, 'icon': 'mdi:wifi'}
 }
 SENSORS_DUAL_ONLY = ['pm2_5_aqi_b_raw']
