@@ -1,5 +1,5 @@
 """Constants for the Purple Air integration."""
-from homeassistant.const import  SIGNAL_STRENGTH_DECIBELS_MILLIWATT,PERCENTAGE
+from homeassistant.const import  SIGNAL_STRENGTH_DECIBELS_MILLIWATT,PERCENTAGE,UnitOfTemperature,UnitOfPressure
 
 from homeassistant.components.sensor import SensorDeviceClass
 
